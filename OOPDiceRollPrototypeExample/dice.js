@@ -2,7 +2,8 @@ function Dice(sides) {
   this.sides = sides
 }
 
-// The prototype function will be shared by all instances of Dice object
+// The prototype function on a constructor function will be shared by all
+// instances of Dice object
 Dice.prototype.roll = function () {
   var randomNumber = Math.floor(Math.random() * this.sides) + 1;
   return randomNumber;
