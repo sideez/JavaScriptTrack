@@ -1,5 +1,5 @@
 function Dice(sides) {
-  this.sides = sides
+  this.sides = sides;
 }
 
 // The prototype function on a constructor function will be shared by all
